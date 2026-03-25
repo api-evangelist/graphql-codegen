@@ -1,12 +1,17 @@
 aid: graphql-codegen
 name: GraphQL Code Generator
 description: >-
-  GraphQL Code Generator is an open source tool that generates typed code from GraphQL schemas and operations for multiple languages and frameworks.
+  GraphQL Code Generator is an open source tool from The Guild that generates
+  typed code from GraphQL schemas and operations. It supports TypeScript, React
+  Query, Apollo Client, Urql, and many other plugins for producing type-safe
+  GraphQL clients and server resolvers.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - SDKs
   - Code Generation
+  - GraphQL
+  - TypeScript
 url: >-
   https://raw.githubusercontent.com/api-evangelist/graphql-codegen/refs/heads/main/apis.yml
 created: '2026-03-25'
@@ -16,14 +21,21 @@ apis:
   - aid: graphql-codegen:graphql-codegen
     name: GraphQL Code Generator
     description: >-
-      GraphQL Code Generator is an open source tool that generates typed code from GraphQL schemas and operations for multiple languages and frameworks.
+      GraphQL Code Generator generates typed code from GraphQL schemas and
+      operations, supporting TypeScript, React Query, Apollo Client, and
+      many other frameworks through its plugin system.
     humanURL: https://the-guild.dev/graphql/codegen
     tags:
       - SDKs
       - Code Generation
+      - GraphQL
     properties:
       - type: Documentation
         url: https://the-guild.dev/graphql/codegen/docs/getting-started
+      - type: Getting Started
+        url: https://the-guild.dev/graphql/codegen/docs/getting-started
+      - type: GitHub Repository
+        url: https://github.com/dotansimha/graphql-code-generator
 common:
   - type: Website
     url: https://the-guild.dev/graphql/codegen
@@ -31,6 +43,8 @@ common:
     url: https://the-guild.dev/graphql/codegen/docs/getting-started
   - type: GitHub Organization
     url: https://github.com/dotansimha/graphql-code-generator
+  - type: Plugins
+    url: https://the-guild.dev/graphql/codegen/plugins
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
