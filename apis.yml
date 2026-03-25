@@ -1,0 +1,36 @@
+aid: graphql-codegen
+name: GraphQL Code Generator
+description: >-
+  GraphQL Code Generator is an open source tool that generates typed code from GraphQL schemas and operations for multiple languages and frameworks.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - SDKs
+  - Code Generation
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/graphql-codegen/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-03-25'
+specificationVersion: '0.19'
+apis:
+  - aid: graphql-codegen:graphql-codegen
+    name: GraphQL Code Generator
+    description: >-
+      GraphQL Code Generator is an open source tool that generates typed code from GraphQL schemas and operations for multiple languages and frameworks.
+    humanURL: https://the-guild.dev/graphql/codegen
+    tags:
+      - SDKs
+      - Code Generation
+    properties:
+      - type: Documentation
+        url: https://the-guild.dev/graphql/codegen/docs/getting-started
+common:
+  - type: Website
+    url: https://the-guild.dev/graphql/codegen
+  - type: Documentation
+    url: https://the-guild.dev/graphql/codegen/docs/getting-started
+  - type: GitHub Organization
+    url: https://github.com/dotansimha/graphql-code-generator
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
