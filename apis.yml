@@ -8,9 +8,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - SDKs
   - Code Generation
   - GraphQL
+  - SDKs
   - TypeScript
 url: >-
   https://raw.githubusercontent.com/api-evangelist/graphql-codegen/refs/heads/main/apis.yml
@@ -26,9 +26,9 @@ apis:
       many other frameworks through its plugin system.
     humanURL: https://the-guild.dev/graphql/codegen
     tags:
-      - SDKs
       - Code Generation
       - GraphQL
+      - SDKs
     properties:
       - type: Documentation
         url: https://the-guild.dev/graphql/codegen/docs/getting-started
