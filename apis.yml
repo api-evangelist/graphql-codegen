@@ -32,16 +32,16 @@ apis:
     properties:
       - type: Documentation
         url: https://the-guild.dev/graphql/codegen/docs/getting-started
-      - type: Getting Started
+      - type: GettingStarted
         url: https://the-guild.dev/graphql/codegen/docs/getting-started
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/dotansimha/graphql-code-generator
 common:
   - type: Website
     url: https://the-guild.dev/graphql/codegen
   - type: Documentation
     url: https://the-guild.dev/graphql/codegen/docs/getting-started
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/dotansimha/graphql-code-generator
   - type: Plugins
     url: https://the-guild.dev/graphql/codegen/plugins
