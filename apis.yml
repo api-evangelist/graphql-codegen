@@ -39,6 +39,8 @@ apis:
   - url: graphql/graphql-codegen-graphql.md
     type: GraphQL
 common:
+- type: DomainSecurity
+  url: security/graphql-codegen-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/the-guild-software
 - type: Website
@@ -49,6 +51,8 @@ common:
   url: https://github.com/dotansimha/graphql-code-generator
 - type: Plugins
   url: https://the-guild.dev/graphql/codegen/plugins
+- url: https://graphql-codegen.com/feed
+  type: Blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
